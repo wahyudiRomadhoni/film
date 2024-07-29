@@ -1,0 +1,39 @@
+@import url(navbar.css);
+@import url(hero.css);
+@import url(popular.css);
+@import url(kategori.css);
+@import url(movies.css);
+
+:root {
+    --warna-putih: #fff;
+    --warna-hitam: #000000;
+    --warna-abu: #3030;
+    --warna-ungu: #800080;
+    --ukuran-judul: 36px;
+    --ukuran-body: 15px;
+    --ukuran-heading: 24px;
+    --ukuran-container:1200px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--warna-hitam);
+}
+
+@media (max-width: 768px) {
+    :root {
+        --ukuran-judul: 24px;
+        --ukuran-body: 15px;
+        --ukuran-heading: 24px;
+        --ukuran-container:1200px;
+    }
+}

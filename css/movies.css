@@ -1,0 +1,16 @@
+.movie {
+    max-width: var(--ukuran-container);
+    margin: auto;
+}
+
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px 40px;
+}
+
+.movie-container img {
+    width: 100%;
+}
+
+@media (max-width: 768px)

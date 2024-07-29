@@ -1,0 +1,36 @@
+.hero {
+    max-width: var(--ukuran-container);
+    margin: auto;
+    padding: 6rem 0;
+}
+
+.hero-container h1 {
+    color: var(--warna-putih);
+    font-size: var(--ukuran-judul) ;
+}
+
+.input-search {
+    margin-top: 40px;
+    display: flex;
+    column-gap: 10px;
+
+}
+
+.input-search input {
+    width: 40%;
+    border: none;
+    border-radius: 7px;
+    font-size: var(--ukuran-body);
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.input-search button {
+    border: none;
+    background-color: #800080;
+    font-size: var(--ukuran-body);
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    color: var(--warna-putih);
+}
