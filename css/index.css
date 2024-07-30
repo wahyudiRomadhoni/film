@@ -3,6 +3,8 @@
 @import url(popular.css);
 @import url(kategori.css);
 @import url(movies.css);
+@import url(overlay.css);
+@import url(overview.css);
 
 :root {
     --warna-putih: #fff;

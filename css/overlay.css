@@ -1,0 +1,60 @@
+.overlay {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.overlay-container {
+    max-width: var(--ukuran-container);
+    margin: auto;
+
+}
+
+.overlay-information {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+}
+
+.overlay-information h1 {
+    color: var(--warna-putih);
+    font-size: var(--ukuran-judul);
+}
+
+.overlay-information p {
+    color: var(--warna-putih);
+    font-size: var(--ukuran-body);
+    padding-top: 20px;
+}
+
+.overlay-genre {
+    display: flex;
+    column-gap: 10px;
+}
+
+.overlay-button {
+    display:flex;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+.overlay-button .watch {
+    background-color: var(--warna-ungu);
+    color: var(--warna-putih);
+    padding: 15px 30px;
+    
+}
+
+.overlay-button .list {
+    background-color: transparent;
+    color: var(--warna-putih);
+    padding: 15px 30px;
+    border:none;
+}
+
+@media (max-width: 768px) {
+
+}

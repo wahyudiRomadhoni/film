@@ -21,7 +21,7 @@ function getContentKategori(id) {
     .then((response)=> {
         var results = response.results;
         results.map(result => {
-            movies.innerHTML += `<img src="${LINK_GAMBAR + result.poster_path}"/>`
+            movies.innerHTML += `<a href="detail.html?id=${result.id}"><img src="${LINK_GAMBAR + result.poster_path}"/></a>`
         })
     })
 }

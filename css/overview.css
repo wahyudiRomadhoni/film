@@ -1,0 +1,22 @@
+.overview {
+
+}
+
+.overview-container {
+    max-width: var(--ukuran-container);
+    margin: auto;
+    padding: 100px 0;
+}
+
+.overview-container h1 {
+    color: var(--warna-putih);
+    font-size: var(--ukuran-judul);
+}
+
+.overview-container p {
+    color: var(--warna-putih);
+    font-size: var(--ukuran-body);
+    width: 50%;
+    margin-top: 15px;
+    text-align: justify;
+}
